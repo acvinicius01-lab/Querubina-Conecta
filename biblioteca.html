@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital | Querubina Conecta</title>
+  <meta name="description" content="Catálogo de livros digitais, plataformas de leitura e materiais complementares.">
+  <link rel="icon" type="image/jpeg" href="assets/escudo-querubina.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <span>🏫 Escola Estadual Querubina Silveira • Ano Letivo 2026</span>
+        <div class="top-bar-links">
+          <div class="a11y-controls">
+            <span style="font-size:0.75rem;opacity:0.9;">Acessibilidade:</span>
+            <button class="a11y-btn" id="highContrastBtn">◐ Alto Contraste</button>
+            <button class="a11y-btn" id="largeFontBtn">A+ Fonte Ampliada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="assets/escudo-querubina.jpg" alt="Escudo da Escola Estadual Querubina Silveira" width="62" height="72"></div>
+          <div class="logo-text">
+            <h1>Querubina Conecta</h1>
+            <p>“Informação ao alcance de todos.”</p>
+          </div>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchBox" class="search-box" placeholder="Buscar livro, autor ou título...">
+          <div class="search-suggestions" id="searchSuggestions"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="index.html">🏠 Início</a></li>
+          <li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços ao Estudante</a></li>
+          <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          <li><a href="biblioteca.html" class="active" aria-current="page">📖 Biblioteca Digital</a></li>
+          <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2>📖 Biblioteca Digital</h2>
+      <p>Leitura, pesquisa e materiais de apoio para os estudantes da Querubina Silveira.</p>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <div class="container">
+
+      
+      <section class="section school-feature" aria-labelledby="biblioteca-escola-titulo">
+        <img class="school-feature-photo" src="assets/escola/biblioteca.jpg" alt="Estantes, livros e mesas da biblioteca da escola" loading="eager" decoding="async">
+        <div class="school-feature-text"><span class="school-eyebrow">Nossa biblioteca</span><h2 id="biblioteca-escola-titulo">Um espaço para descobrir e aprender</h2><p>A biblioteca faz parte da estrutura da escola e incentiva a leitura, a pesquisa e o acesso ao conhecimento.</p><p>Explore também os materiais e recursos de leitura disponíveis nesta página.</p><a class="btn btn-outline btn-sm" href="#plataformas-titulo">Explorar recursos de leitura ↓</a></div>
+      </section>
+
+      <section class="section">
+        <div class="alert-box alert-success">
+          <span class="alert-icon">✅</span>
+          <div class="alert-content">
+            <p><strong>Leitura e pesquisa:</strong> Para orientações sobre o acervo e o atendimento da biblioteca, procure a equipe da escola.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="plataformas-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="plataformas-titulo"><span class="icon">🌐</span> Plataformas de Leitura Parceiras</h2>
+        </div>
+        <div class="platforms-grid">
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#E3F2FD;color:#1976D2;">📘</div>
+            <h3>Google Livros</h3>
+            <p>Acesso a milhares de livros gratuitos e pagos.</p>
+          </a>
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#F3E5F5;color:#7B1FA2;">📚</div>
+            <h3>Skoobe (Parceria)</h3>
+            <p>Biblioteca virtual com assinatura gratuita para alunos.</p>
+          </a>
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#E8F5E9;color:#388E3C;">📚</div>
+            <h3>Saraiva Educação</h3>
+            <p>Livros didáticos, paradidáticos e literatura brasileira.</p>
+          </a>
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#FFF3E0;color:#F57C00;">🎧</div>
+            <h3>Audiobooks Brasil</h3>
+            <p>Milhares de audiolivros gratuitos para estudantes.</p>
+          </a>
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#FCE4EC;color:#C2185B;">📖</div>
+            <h3>Literatura Digital</h3>
+            <p>Obras clássicas da literatura em domínio público.</p>
+          </a>
+          <a href="#" class="platform-card">
+            <div class="platform-icon" style="background:#E0F7FA;color:#00838F;">🧪</div>
+            <h3>Khan Academy (Português)</h3>
+            <p>Videoaulas e exercícios interativos gratuitos.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="catalogo-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="catalogo-titulo"><span class="icon">📚</span> Catálogo de Livros Digitais</h2>
+          <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+            <input type="text" placeholder="🔍 Buscar no catálogo..." style="padding:0.5rem 1rem;border-radius:var(--radius-md);border:2px solid var(--border);width:220px;">
+            <select style="padding:0.5rem;border-radius:var(--radius-md);border:2px solid var(--border);">
+              <option>Todas as categorias</option>
+              <option>Literatura Brasileira</option>
+              <option>Literatura Estrangeira</option>
+              <option>Livros Didáticos</option>
+              <option>Ciências</option>
+              <option>Matemática</option>
+              <option>História</option>
+              <option>Ficção</option>
+              <option>Poesia</option>
+              <option>Infanto-Juvenil</option>
+            </select>
+          </div>
+        </div>
+        <div class="library-grid">
+
+          <article class="book-card">
+            <div class="book-cover">
+              <div class="book-icon">📘</div>
+              <h4>Dom Casmurro</h4>
+            </div>
+            <div class="book-info">
+              <h4>Dom Casmurro</h4>
+              <p class="author">Machado de Assis • 1899</p>
+              <div class="book-tags">
+                <span class="tag">Literatura BR</span>
+                <span class="tag">Clássico</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#6BBF8A,#4A6FA5);">
+              <div class="book-icon">📗</div>
+              <h4>O Cortiço</h4>
+            </div>
+            <div class="book-info">
+              <h4>O Cortiço</h4>
+              <p class="author">Aluísio Azevedo • 1890</p>
+              <div class="book-tags">
+                <span class="tag">Naturalismo</span>
+                <span class="tag">Leitura obrigatória</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#9B7EBD,#F0B429);">
+              <div class="book-icon">📙</div>
+              <h4>Memórias Póstumas...</h4>
+            </div>
+            <div class="book-info">
+              <h4>Memórias Póstumas de Brás Cubas</h4>
+              <p class="author">Machado de Assis • 1881</p>
+              <div class="book-tags">
+                <span class="tag">Realismo</span>
+                <span class="tag">Clássico</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#E74C3C,#9B7EBD);">
+              <div class="book-icon">📕</div>
+              <h4>Capitães da Areia</h4>
+            </div>
+            <div class="book-info">
+              <h4>Capitães da Areia</h4>
+              <p class="author">Jorge Amado • 1937</p>
+              <div class="book-tags">
+                <span class="tag">Literatura BR</span>
+                <span class="tag">Ficção</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#4A6FA5,#6BBF8A);">
+              <div class="book-icon">🔢</div>
+              <h4>Matemática Divertida</h4>
+            </div>
+            <div class="book-info">
+              <h4>Matemática Divertida - 9º ano</h4>
+              <p class="author">Equipe Editorial Saraiva • 2024</p>
+              <div class="book-tags">
+                <span class="tag">Didático</span>
+                <span class="tag">Matemática</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#F0B429,#E74C3C);">
+              <div class="book-icon">🔬</div>
+              <h4>Ciência para Jovens</h4>
+            </div>
+            <div class="book-info">
+              <h4>Ciência para Jovens - Volume 3</h4>
+              <p class="author">Dr. Carlos Martins • 2025</p>
+              <div class="book-tags">
+                <span class="tag">Ciências</span>
+                <span class="tag">Paradidático</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#6BBF8A,#9B7EBD);">
+              <div class="book-icon">🏛️</div>
+              <h4>História do Brasil</h4>
+            </div>
+            <div class="book-info">
+              <h4>Uma Breve História do Brasil</h4>
+              <p class="author">Lilia Schwarcz • 2021</p>
+              <div class="book-tags">
+                <span class="tag">História</span>
+                <span class="tag">Essencial</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover" style="background:linear-gradient(135deg,#1a2a4a,#4A6FA5);">
+              <div class="book-icon">🎭</div>
+              <h4>Hamlet</h4>
+            </div>
+            <div class="book-info">
+              <h4>Hamlet (Edição Bilíngue)</h4>
+              <p class="author">William Shakespeare • 1603</p>
+              <div class="book-tags">
+                <span class="tag">Teatro</span>
+                <span class="tag">Clássico Mundial</span>
+              </div>
+              <a href="#" class="btn btn-outline btn-sm btn-block">📖 Ler agora</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="#" class="btn btn-outline">📚 Ver catálogo completo (+5.000 títulos)</a>
+        </div>
+      </section>
+
+      <section class="section materials-section" aria-labelledby="complementar-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="complementar-titulo"><span class="icon">📂</span> Materiais Complementares</h2>
+        </div>
+
+        <div class="series-tabs" data-tab-group="materiais-comp">
+          <button class="series-tab active" data-tab="videoaulas">🎬 Videoaulas</button>
+          <button class="series-tab" data-tab="exercicios">📝 Exercícios</button>
+          <button class="series-tab" data-tab="mapas">🗺️ Mapas Mentais</button>
+          <button class="series-tab" data-tab="audiobooks">🎧 Audiobooks</button>
+        </div>
+
+        <div data-tab-content-group="materiais-comp">
+          <div data-tab-content="videoaulas">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon" style="background:#FCE4EC;color:#C2185B;">▶️</div>
+                  <div class="material-text">
+                    <h4>Funções Quadráticas - Aula Completa (42 min)</h4>
+                    <span>YouTube • Prof. Matemática Rio • Visualizações: 3.2k</span>
+                  </div>
+                </div>
+                <button class="btn btn-accent btn-sm">Assistir</button>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon" style="background:#E3F2FD;color:#1976D2;">▶️</div>
+                  <div class="material-text">
+                    <h4>Análise de Dom Casmurro - Enem (38 min)</h4>
+                    <span>YouTube • Descomplica • Atualizado 2026</span>
+                  </div>
+                </div>
+                <button class="btn btn-accent btn-sm">Assistir</button>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon" style="background:#E8F5E9;color:#388E3C;">▶️</div>
+                  <div class="material-text">
+                    <h4>Célula Animal vs Vegetal - Experimento (25 min)</h4>
+                    <span>Khan Academy • Dublado e com legendas</span>
+                  </div>
+                </div>
+                <button class="btn btn-accent btn-sm">Assistir</button>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="exercicios" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📝</div>
+                  <div class="material-text">
+                    <h4>Lista de Matemática: Potenciações e Radiciais</h4>
+                    <span>PDF • Com gabarito comentado • 8º ano</span>
+                  </div>
+                </div>
+                <button class="btn btn-outline btn-sm">Baixar</button>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📝</div>
+                  <div class="material-text">
+                    <h4>Exercícios de Gramática: Figuras de Linguagem</h4>
+                    <span>DOCX • Com sugestões de respostas • 9º ano / EM</span>
+                  </div>
+                </div>
+                <button class="btn btn-outline btn-sm">Baixar</button>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="mapas" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🗺️</div>
+                  <div class="material-text">
+                    <h4>Mapa Mental: Era Vargas (História)</h4>
+                    <span>PDF • Alta resolução • Ideal para impressão</span>
+                  </div>
+                </div>
+                <button class="btn btn-outline btn-sm">Baixar</button>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🗺️</div>
+                  <div class="material-text">
+                    <h4>Mapa Mental: Ecossistemas (Biologia)</h4>
+                    <span>PNG • Colorido • Ótimo para resumos</span>
+                  </div>
+                </div>
+                <button class="btn btn-outline btn-sm">Baixar</button>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="audiobooks" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🎧</div>
+                  <div class="material-text">
+                    <h4>Audiobook: Dom Casmurro - íntegro (8h30)</h4>
+                    <span>MP3 • Narrado por Nelson Xavier • 256kbps</span>
+                  </div>
+                </div>
+                <button class="btn btn-accent btn-sm">▶️ Ouvir</button>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🎧</div>
+                  <div class="material-text">
+                    <h4>Redação Perfeita - Dicas de Ouro (ENEM)</h4>
+                    <span>Podcast • Episódio 28 • Temporada 3</span>
+                  </div>
+                </div>
+                <button class="btn btn-accent btn-sm">▶️ Ouvir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="regras-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="regras-titulo"><span class="icon">📋</span> Regras de Utilização</h2>
+        </div>
+        <div class="form-container">
+          <div class="notice-board" style="margin-bottom:0;">
+            <div class="notice-item info">
+              <div class="notice-icon">👤</div>
+              <div class="notice-content">
+                <h3>Login no sistema</h3>
+                <p>Utilize seu RA e senha pessoal. Não compartilhe sua senha. Alterações de senha: clique em "Esqueci a senha" ou procure a coordenação.</p>
+              </div>
+            </div>
+            <div class="notice-item info">
+              <div class="notice-icon">📚</div>
+              <div class="notice-content">
+                <h3>Empréstimo de livros físicos</h3>
+                <p>Até 3 livros por vez, prazo de 7 dias. Renovação: presencial ou pelo portal. Multa por atraso: R$ 0,50 por dia útil.</p>
+              </div>
+            </div>
+            <div class="notice-item info">
+              <div class="notice-icon">⏰</div>
+              <div class="notice-content">
+                <h3>Horário de funcionamento</h3>
+                <p>Seg a Sex: 7h às 18h | Sábados: 8h às 12h. Biblioteca física fechada em feriados e recessos escolares.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img class="footer-crest" src="assets/escudo-querubina.jpg" alt="" width="38" height="44" loading="lazy"> Querubina Conecta</h3>
+          <p>Portal da Escola Estadual Querubina Silveira, em Cerro Corá - RN. Educação, inclusão e informação para a comunidade escolar.</p>
+          <p style="font-style:italic;">“Informação ao alcance de todos.”</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><ul>
+          <li><a href="index.html">🏠 Início</a></li><li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços</a></li><li><a href="comunicacao.html">📣 Comunicação</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Recursos</h4><ul>
+          <li><a href="biblioteca.html">📖 Biblioteca</a></li><li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li><li><a href="#">❓ FAQ</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Legal</h4><ul>
+          <li><a href="comunidade.html#transparencia">🔍 Transparência</a></li>
+          <li><a href="#">📄 Política de Privacidade</a></li><li><a href="#">⚖️ Termos de Uso</a></li>
+          <li><a href="#">🔐 Acesso Gov.br</a></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 Escola Estadual Querubina Silveira • Todos os direitos reservados</div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

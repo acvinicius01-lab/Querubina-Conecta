@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços ao Estudante | Querubina Conecta</title>
+  <meta name="description" content="Solicitação de documentos, consulta de notas, inscrições e agendamento de atendimento.">
+  <link rel="icon" type="image/jpeg" href="assets/escudo-querubina.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <span>🏫 Escola Estadual Querubina Silveira • Ano Letivo 2026</span>
+        <div class="top-bar-links">
+          <div class="a11y-controls">
+            <span style="font-size:0.75rem;opacity:0.9;">Acessibilidade:</span>
+            <button class="a11y-btn" id="highContrastBtn">◐ Alto Contraste</button>
+            <button class="a11y-btn" id="largeFontBtn">A+ Fonte Ampliada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="assets/escudo-querubina.jpg" alt="Escudo da Escola Estadual Querubina Silveira" width="62" height="72"></div>
+          <div class="logo-text">
+            <h1>Querubina Conecta</h1>
+            <p>“Informação ao alcance de todos.”</p>
+          </div>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchBox" class="search-box" placeholder="Buscar serviço...">
+          <div class="search-suggestions" id="searchSuggestions"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="index.html">🏠 Início</a></li>
+          <li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html" class="active" aria-current="page">📝 Serviços ao Estudante</a></li>
+          <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          <li><a href="biblioteca.html">📖 Biblioteca Digital</a></li>
+          <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2>📝 Serviços ao Estudante</h2>
+      <p>Documentos, notas, monitorias e agendamento: tudo em um só lugar.</p>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <div class="container">
+
+      <section class="section" id="login" aria-labelledby="login-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="login-titulo"><span class="icon">👤</span> Área do Aluno - Login</h2>
+        </div>
+        <div class="form-container" style="max-width:500px;margin:0 auto;">
+          <form data-simulate>
+            <div class="form-group">
+              <label for="raLogin">RA (Registro de Aluno)</label>
+              <input type="text" id="raLogin" placeholder="Digite seu RA" required>
+            </div>
+            <div class="form-group">
+              <label for="senhaLogin">Senha</label>
+              <input type="password" id="senhaLogin" placeholder="Digite sua senha" required>
+            </div>
+            <div class="alert-box alert-info" style="margin-top:0;">
+              <span class="alert-icon">ℹ️</span>
+              <div class="alert-content">
+                <p style="margin:0;font-size:0.85rem;">Primeiro acesso? Sua senha inicial é a data de nascimento (DDMMAAAA). Após o login, você poderá alterá-la.</p>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style="background:var(--primary);color:white;">🔓 Entrar no Portal</button>
+            <p style="text-align:center;margin-top:1rem;">
+              <a href="#">Esqueci minha senha</a> • <a href="#">Sou pai/responsável</a>
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="servicos-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="servicos-titulo"><span class="icon">🛎️</span> Nossos Serviços</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">📄</div>
+            <h3>Documentos</h3>
+            <p>Solicite declarações, históricos e transferências. Entrega em até 48h úteis.</p>
+            <ul class="service-list">
+              <li>Declaração de matrícula</li>
+              <li>Histórico escolar</li>
+              <li>Declaração de frequência</li>
+              <li>Guia de transferência</li>
+            </ul>
+            <a href="#documentos" class="btn btn-outline btn-block btn-sm">Solicitar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Notas & Frequência</h3>
+            <p>Acompanhe seu desempenho acadêmico em tempo real. Boletim digital disponível.</p>
+            <ul class="service-list">
+              <li>Consulta de notas por bimestre</li>
+              <li>Percentual de frequência</li>
+              <li>Histórico completo</li>
+              <li>Download do boletim</li>
+            </ul>
+            <a href="#notas" class="btn btn-outline btn-block btn-sm">Consultar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">👨‍🏫</div>
+            <h3>Monitorias & Projetos</h3>
+            <p>Receba ajuda em disciplinas específicas ou participe de projetos extracurriculares.</p>
+            <ul class="service-list">
+              <li>Monitoria de matemática</li>
+              <li>Reforço de português</li>
+              <li>Projeto de iniciação científica</li>
+              <li>Atividades esportivas</li>
+            </ul>
+            <a href="#monitorias" class="btn btn-outline btn-block btn-sm">Inscrever-se →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📅</div>
+            <h3>Atendimento Pedagógico</h3>
+            <p>Agende reuniões com pedagogos, orientadores e professores.</p>
+            <ul class="service-list">
+              <li>Orientador educacional</li>
+              <li>Pedagogo/a</li>
+              <li>Psicóloga escolar</li>
+              <li>Professores (dias de atendimento)</li>
+            </ul>
+            <a href="#agendamento" class="btn btn-outline btn-block btn-sm">Agendar →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="documentos" aria-labelledby="doc-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="doc-titulo"><span class="icon">📋</span> Solicitação de Documentos</h2>
+          <span class="badge badge-info">Prazo: 48h úteis</span>
+        </div>
+        <div class="form-container">
+          <form data-simulate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="docRa">RA do Aluno *</label>
+                <input type="text" id="docRa" placeholder="Ex: 123456" required>
+              </div>
+              <div class="form-group">
+                <label for="docSerie">Série / Turma *</label>
+                <select id="docSerie" required>
+                  <option value="">Selecione...</option>
+                  <option>6º ano A - EF</option>
+                  <option>7º ano A - EF</option>
+                  <option>8º ano A - EF</option>
+                  <option>9º ano A - EF</option>
+                  <option>1º ano A - EM</option>
+                  <option>2º ano A - EM</option>
+                  <option>3º ano A - EM</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="docNome">Nome Completo *</label>
+              <input type="text" id="docNome" placeholder="Nome completo do aluno" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="docTipo">Tipo de Documento *</label>
+                <select id="docTipo" required>
+                  <option value="">Selecione o documento...</option>
+                  <option>Declaração de Matrícula</option>
+                  <option>Declaração de Frequência</option>
+                  <option>Histórico Escolar</option>
+                  <option>Guia de Transferência</option>
+                  <option>Certificado de Conclusão (EM)</option>
+                  <option>Outros (especificar abaixo)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="docVia">Número de Vias</label>
+                <select id="docVia">
+                  <option>1 via</option>
+                  <option>2 vias</option>
+                  <option>3 vias</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="docFinalidade">Finalidade / Observações</label>
+              <textarea id="docFinalidade" rows="3" placeholder="Ex: Para fins de bolsa de estudo..."></textarea>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="docEmail">E-mail para contato *</label>
+                <input type="email" id="docEmail" placeholder="seu@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="docTel">Telefone *</label>
+                <input type="tel" id="docTel" placeholder="(11) 99999-9999" required>
+              </div>
+            </div>
+
+            <div class="alert-box alert-info">
+              <span class="alert-icon">ℹ️</span>
+              <div class="alert-content">
+                <p style="margin:0;">A retirada do documento impresso requer apresentação de RG (do aluno ou responsável legal). Também é possível solicitar envio por e-mail.</p>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" style="background:var(--primary);color:white;">📤 Enviar Solicitação</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="notas" aria-labelledby="notas-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="notas-titulo"><span class="icon">📊</span> Consulta de Notas e Frequência</h2>
+        </div>
+        <div class="form-container">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="raInput">RA do Aluno</label>
+              <input type="text" id="raInput" placeholder="Digite o RA para consultar">
+            </div>
+            <div class="form-group">
+              <label for="bimestreSelect">Bimestre</label>
+              <select id="bimestreSelect">
+                <option value="3">3º Bimestre (Atual)</option>
+                <option value="2">2º Bimestre</option>
+                <option value="1">1º Bimestre</option>
+                <option value="todos">Todos os bimestres</option>
+              </select>
+            </div>
+          </div>
+          <button type="button" id="consultarNotasBtn" class="btn btn-primary" style="background:var(--accent);color:white;">🔍 Consultar Boletim</button>
+
+          <div id="gradeResult" style="margin-top:1.5rem;"></div>
+        </div>
+      </section>
+
+      <section class="section" id="monitorias" aria-labelledby="mon-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="mon-titulo"><span class="icon">👩‍🎓</span> Monitorias & Projetos</h2>
+          <span class="badge badge-success">28 vagas disponíveis</span>
+        </div>
+
+        <div class="material-list" style="margin-bottom:2rem;">
+          <div class="material-item">
+            <div class="material-info">
+              <div class="material-icon" style="background:#E3F2FD;color:#1976D2;">🔢</div>
+              <div class="material-text">
+                <h4>Monitoria de Matemática - Tarde</h4>
+                <span>Segundas e quartas • 14h às 16h • James e Fernando • Monitora: Larissa (3º EM) • 8 vagas</span>
+              </div>
+            </div>
+            <button class="btn btn-accent btn-sm" onclick="document.getElementById('formMonitoria').scrollIntoView({behavior:'smooth'});">Inscrever</button>
+          </div>
+          <div class="material-item">
+            <div class="material-info">
+              <div class="material-icon" style="background:#E8F5E9;color:#388E3C;">📖</div>
+              <div class="material-text">
+                <h4>Reforço de Português - Matutino</h4>
+                <span>Terças e quintas • 8h às 9h30 • Altierres e Janaílson Ferreira • Monitor: Pedro (2º EM) • 5 vagas</span>
+              </div>
+            </div>
+            <button class="btn btn-accent btn-sm" onclick="document.getElementById('formMonitoria').scrollIntoView({behavior:'smooth'});">Inscrever</button>
+          </div>
+          <div class="material-item">
+            <div class="material-info">
+              <div class="material-icon" style="background:#F3E5F5;color:#7B1FA2;">🔬</div>
+              <div class="material-text">
+                <h4>Iniciação Científica - Feira de Ciências</h4>
+                <span>Sextas • 14h às 17h • Tenan • 15 vagas</span>
+              </div>
+            </div>
+            <button class="btn btn-accent btn-sm" onclick="document.getElementById('formMonitoria').scrollIntoView({behavior:'smooth'});">Inscrever</button>
+          </div>
+        </div>
+
+        <div class="form-container" id="formMonitoria">
+          <h3 style="margin-bottom:1.5rem;color:var(--primary-dark);">📝 Formulário de Inscrição</h3>
+          <form data-simulate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="monNome">Nome Completo *</label>
+                <input type="text" id="monNome" required>
+              </div>
+              <div class="form-group">
+                <label for="monRa">RA *</label>
+                <input type="text" id="monRa" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="monSerie">Série / Turma *</label>
+                <select id="monSerie" required>
+                  <option value="">Selecione...</option>
+                  <option>6º ano EF</option>
+                  <option>7º ano EF</option>
+                  <option>8º ano EF</option>
+                  <option>9º ano EF</option>
+                  <option>1º ano EM</option>
+                  <option>2º ano EM</option>
+                  <option>3º ano EM</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="monTipo">Monitoria / Projeto *</label>
+                <select id="monTipo" required>
+                  <option value="">Selecione...</option>
+                  <option>Monitoria de Matemática</option>
+                  <option>Reforço de Português</option>
+                  <option>Iniciação Científica</option>
+                  <option>Grupo de Teatro</option>
+                  <option>Banda / Música</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Por que deseja participar? *</label>
+              <textarea rows="3" required placeholder="Conte-nos um pouco sobre seu interesse..."></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="monEmail">E-mail *</label>
+                <input type="email" id="monEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="monTel">Telefone *</label>
+                <input type="tel" id="monTel" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style="background:var(--primary);color:white;">✅ Confirmar Inscrição</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="agendamento" aria-labelledby="agenda-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="agenda-titulo"><span class="icon">📆</span> Agendamento de Atendimento</h2>
+        </div>
+        <div class="form-container">
+          <form data-simulate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="agNome">Nome do Aluno / Responsável *</label>
+                <input type="text" id="agNome" required>
+              </div>
+              <div class="form-group">
+                <label for="agTipo">Atendimento com *</label>
+                <select id="agTipo" required>
+                  <option value="">Selecione...</option>
+                  <option>Orientador Educacional</option>
+                  <option>Pedagogo/a</option>
+                  <option>Psicóloga Escolar</option>
+                  <option>Altierres (Língua Portuguesa)</option>
+                  <option>Janaílson Ferreira (Língua Portuguesa)</option>
+                  <option>James (Matemática)</option>
+                  <option>Fernando (Matemática)</option>
+                  <option>Tenan (Ciências)</option>
+                  <option>Adriane (História)</option>
+                  <option>Suenele (História)</option>
+                  <option>Jucicléia (Geografia)</option>
+                  <option>Vandreia (Inglês)</option>
+                  <option>Jaedyson (Educação Física)</option>
+                  <option>Diego Guedes (Educação Física)</option>
+                  <option>Isabel (Artes)</option>
+                  <option>Direção / Secretaria</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row-3">
+              <div class="form-group">
+                <label for="agData">Data *</label>
+                <input type="date" id="agData" required min="2026-08-29">
+              </div>
+              <div class="form-group">
+                <label for="agHora">Horário *</label>
+                <select id="agHora" required>
+                  <option value="">Selecione...</option>
+                  <option>08:00</option><option>08:30</option><option>09:00</option>
+                  <option>09:30</option><option>10:00</option><option>10:30</option>
+                  <option>11:00</option><option>14:00</option><option>14:30</option>
+                  <option>15:00</option><option>15:30</option><option>16:00</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="agLocal">Local</label>
+                <select id="agLocal">
+                  <option>Sala de Reuniões (Pedagógica)</option>
+                  <option>Direção</option>
+                  <option>Secretaria</option>
+                  <option>Sala de Aula (combinar com prof.)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="agMotivo">Motivo / Assunto *</label>
+              <textarea id="agMotivo" rows="3" required placeholder="Descreva brevemente o motivo do atendimento..."></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="agEmail">E-mail *</label>
+                <input type="email" id="agEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="agTel">Telefone *</label>
+                <input type="tel" id="agTel" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style="background:var(--primary);color:white;">📅 Confirmar Agendamento</button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img class="footer-crest" src="assets/escudo-querubina.jpg" alt="" width="38" height="44" loading="lazy"> Querubina Conecta</h3>
+          <p>Portal da Escola Estadual Querubina Silveira, em Cerro Corá - RN. Educação, inclusão e informação para a comunidade escolar.</p>
+          <p style="font-style:italic;">“Informação ao alcance de todos.”</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><ul>
+          <li><a href="index.html">🏠 Início</a></li><li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços</a></li><li><a href="comunicacao.html">📣 Comunicação</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Recursos</h4><ul>
+          <li><a href="biblioteca.html">📖 Biblioteca</a></li><li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li><li><a href="#">❓ FAQ</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Legal</h4><ul>
+          <li><a href="comunidade.html#transparencia">🔍 Transparência</a></li>
+          <li><a href="#">📄 Política de Privacidade</a></li><li><a href="#">⚖️ Termos de Uso</a></li>
+          <li><a href="#">🔐 Acesso Gov.br</a></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 Escola Estadual Querubina Silveira • Todos os direitos reservados</div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

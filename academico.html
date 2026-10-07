@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área Acadêmica | Querubina Conecta</title>
+  <meta name="description" content="Disciplinas, materiais de estudo, cronograma de avaliações e projetos escolares.">
+  <link rel="icon" type="image/jpeg" href="assets/escudo-querubina.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <span>🏫 Escola Estadual Querubina Silveira • Ano Letivo 2026</span>
+        <div class="top-bar-links">
+          <div class="a11y-controls">
+            <span style="font-size:0.75rem;opacity:0.9;">Acessibilidade:</span>
+            <button class="a11y-btn" id="highContrastBtn" aria-label="Ativar alto contraste">◐ Alto Contraste</button>
+            <button class="a11y-btn" id="largeFontBtn" aria-label="Aumentar fonte">A+ Fonte Ampliada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="assets/escudo-querubina.jpg" alt="Escudo da Escola Estadual Querubina Silveira" width="62" height="72"></div>
+          <div class="logo-text">
+            <h1>Querubina Conecta</h1>
+            <p>“Informação ao alcance de todos.”</p>
+          </div>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchBox" class="search-box" placeholder="Buscar disciplina, material...">
+          <div class="search-suggestions" id="searchSuggestions"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="index.html">🏠 Início</a></li>
+          <li><a href="academico.html" class="active" aria-current="page">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços ao Estudante</a></li>
+          <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          <li><a href="biblioteca.html">📖 Biblioteca Digital</a></li>
+          <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2>📚 Área Acadêmica</h2>
+      <p>Tudo o que você precisa para estudar: disciplinas, materiais, avaliações e projetos.</p>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <div class="container">
+
+      <section class="section" id="modalidades" aria-labelledby="modalidades-titulo">
+        <div class="section-header"><h2 class="section-title" id="modalidades-titulo">Cursos e Modalidades</h2></div>
+        <div class="school-modalities"><article class="school-modality"><span aria-hidden="true">📚</span><h3>Ensino Fundamental</h3><p>Formação cidadã e desenvolvimento integral do estudante.</p></article><article class="school-modality"><span aria-hidden="true">🎓</span><h3>Ensino Médio</h3><p>Preparação para o ENEM, vestibulares e o mundo do trabalho.</p></article><article class="school-modality"><span aria-hidden="true">💻</span><h3>Técnico em Informática</h3><p>Curso integrado ao Ensino Médio, com formação para a área da tecnologia.</p></article><article class="school-modality"><span aria-hidden="true">♿</span><h3>AEE</h3><p>Atendimento Educacional Especializado, com foco na inclusão e na acessibilidade.</p></article><article class="school-modality"><span aria-hidden="true">👨‍🏫</span><h3>EJA</h3><p>Educação de Jovens e Adultos, com oportunidades para a conclusão dos estudos.</p></article></div>
+        <div class="school-feature school-lab-feature">
+          <img class="school-feature-photo" src="assets/escola/laboratorio.jpg" alt="Laboratório de informática da escola" loading="eager" decoding="async">
+          <div class="school-feature-text"><span class="school-eyebrow">Tecnologia e aprendizagem</span><h3>Técnico em Informática</h3><p>Formação integrada ao Ensino Médio, aproximando os estudantes da tecnologia e das atividades práticas de informática.</p><a href="contato.html" class="btn btn-outline btn-sm">Informações na secretaria →</a></div>
+        </div>
+      </section>
+
+      <section class="section" id="disciplinas" aria-labelledby="disc-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="disc-titulo"><span class="icon">📖</span> Disciplinas</h2>
+          <div>
+            <select style="padding:0.5rem;border-radius:var(--radius-md);border:2px solid var(--border);">
+              <option>Todas as Séries</option>
+              <option>6º ano EF</option>
+              <option>7º ano EF</option>
+              <option>8º ano EF</option>
+              <option>9º ano EF</option>
+              <option>1º ano EM</option>
+              <option>2º ano EM</option>
+              <option>3º ano EM</option>
+            </select>
+          </div>
+        </div>
+        <div class="subjects-grid">
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🔢</div>
+              <div class="subject-info">
+                <h3>Matemática</h3>
+                <span>James e Fernando</span>
+              </div>
+            </div>
+            <p>Aritmética, álgebra, geometria e funções. Material completo com listas de exercícios e videoaulas.</p>
+            <div class="subject-tags">
+              <span class="tag">28 materiais</span>
+              <span class="tag">3 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">📖</div>
+              <div class="subject-info">
+                <h3>Língua Portuguesa</h3>
+                <span>Altierres e Janaílson Ferreira</span>
+              </div>
+            </div>
+            <p>Gramática, literatura, produção textual e interpretação. Apostilas e redações comentadas.</p>
+            <div class="subject-tags">
+              <span class="tag">35 materiais</span>
+              <span class="tag">4 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🔬</div>
+              <div class="subject-info">
+                <h3>Ciências</h3>
+                <span>Tenan</span>
+              </div>
+            </div>
+            <p>Biologia, química e física. Experimentos práticos, infográficos e roteiros de laboratório.</p>
+            <div class="subject-tags">
+              <span class="tag">42 materiais</span>
+              <span class="tag">3 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🏛️</div>
+              <div class="subject-info">
+                <h3>História</h3>
+                <span>Adriane e Suenele</span>
+              </div>
+            </div>
+            <p>História do Brasil e geral. Linhas do tempo interativas, mapas e textos complementares.</p>
+            <div class="subject-tags">
+              <span class="tag">25 materiais</span>
+              <span class="tag">2 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🌍</div>
+              <div class="subject-info">
+                <h3>Geografia</h3>
+                <span>Jucicléia</span>
+              </div>
+            </div>
+            <p>Geografia política, física e ambiental. Mapas interativos, gráficos e estudos de caso.</p>
+            <div class="subject-tags">
+              <span class="tag">22 materiais</span>
+              <span class="tag">2 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🌐</div>
+              <div class="subject-info">
+                <h3>Inglês</h3>
+                <span>Vandreia</span>
+              </div>
+            </div>
+            <p>Vocabulário, gramática e conversação. Textos, áudios e exercícios interativos.</p>
+            <div class="subject-tags">
+              <span class="tag">30 materiais</span>
+              <span class="tag">2 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">⚽</div>
+              <div class="subject-info">
+                <h3>Educação Física</h3>
+                <span>Jaedyson e Diego Guedes</span>
+              </div>
+            </div>
+            <p>Esportes, dança, ginástica e saúde. Regulamentos, regras e dicas de treino em casa.</p>
+            <div class="subject-tags">
+              <span class="tag">15 materiais</span>
+              <span class="tag">2 aulas semanais</span>
+            </div>
+          </div>
+          <div class="subject-card">
+            <div class="subject-header">
+              <div class="subject-icon">🎨</div>
+              <div class="subject-info">
+                <h3>Artes</h3>
+                <span>Isabel</span>
+              </div>
+            </div>
+            <p>Artes visuais, música, teatro e dança. História da arte e tutoriais práticos.</p>
+            <div class="subject-tags">
+              <span class="tag">18 materiais</span>
+              <span class="tag">1 aula semanal</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="horarios" aria-labelledby="horario-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="horario-titulo"><span class="icon" aria-hidden="true">⏰</span> Horários das Aulas</h2>
+          <span class="tag">Agosto a dezembro</span>
+        </div>
+        <p class="schedule-intro">Escolha seu turno para consultar o horário completo de aulas. Os arquivos também podem ser abertos em outra aba ou baixados para consulta.</p>
+        <div class="schedule-documents">
+          <article class="schedule-document" aria-labelledby="horario-matutino">
+            <div class="schedule-document-heading">
+              <span class="schedule-turn-icon" aria-hidden="true">☀️</span>
+              <div>
+                <h3 id="horario-matutino">Turno matutino</h3>
+                <p>Horários de agosto a dezembro • PDF</p>
+              </div>
+            </div>
+            <div class="schedule-document-actions">
+              <a class="btn btn-outline btn-sm" href="assets/horarios/horarios-matutino-ago-dez.pdf" target="_blank" rel="noopener">Abrir PDF <span class="sr-only">do turno matutino em nova aba</span> ↗</a>
+              <a class="btn btn-accent btn-sm" href="assets/horarios/horarios-matutino-ago-dez.pdf" download>⬇ Baixar <span class="sr-only">horário do turno matutino</span></a>
+            </div>
+            <details class="schedule-preview">
+              <summary>Visualizar horário matutino na página</summary>
+              <p class="schedule-preview-help">Para ampliar o horário no celular, use a opção “Abrir PDF”.</p>
+              <iframe src="assets/horarios/horarios-matutino-ago-dez.pdf" title="Horário completo do turno matutino, agosto a dezembro" loading="lazy"></iframe>
+            </details>
+          </article>
+          <article class="schedule-document" aria-labelledby="horario-vespertino">
+            <div class="schedule-document-heading">
+              <span class="schedule-turn-icon" aria-hidden="true">🌤️</span>
+              <div>
+                <h3 id="horario-vespertino">Turno vespertino</h3>
+                <p>Horários de agosto a dezembro • Versão 2 • PDF</p>
+              </div>
+            </div>
+            <div class="schedule-document-actions">
+              <a class="btn btn-outline btn-sm" href="assets/horarios/horarios-vespertino-ago-dez-v2.pdf" target="_blank" rel="noopener">Abrir PDF <span class="sr-only">do turno vespertino em nova aba</span> ↗</a>
+              <a class="btn btn-accent btn-sm" href="assets/horarios/horarios-vespertino-ago-dez-v2.pdf" download>⬇ Baixar <span class="sr-only">horário do turno vespertino</span></a>
+            </div>
+            <details class="schedule-preview">
+              <summary>Visualizar horário vespertino na página</summary>
+              <p class="schedule-preview-help">Para ampliar o horário no celular, use a opção “Abrir PDF”.</p>
+              <iframe src="assets/horarios/horarios-vespertino-ago-dez-v2.pdf" title="Horário completo do turno vespertino, agosto a dezembro, versão 2" loading="lazy"></iframe>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section class="section materials-section" id="materiais" aria-labelledby="mat-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="mat-titulo"><span class="icon">📂</span> Materiais de Estudo</h2>
+        </div>
+
+        <div class="series-tabs" data-tab-group="series">
+          <button class="series-tab active" data-tab="ef2">6º a 9º ano (EF II)</button>
+          <button class="series-tab" data-tab="em1">1º ano - EM</button>
+          <button class="series-tab" data-tab="em2">2º ano - EM</button>
+          <button class="series-tab" data-tab="em3">3º ano - EM (ENEM)</button>
+        </div>
+
+        <div data-tab-content-group="series">
+          <div data-tab-content="ef2">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📘</div>
+                  <div class="material-text">
+                    <h4>Apostila de Matemática - 7º ano (Vol.2)</h4>
+                    <span>PDF • 12 MB • Atualizado em 20/08/2026</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📗</div>
+                  <div class="material-text">
+                    <h4>Literatura: Dom Casmurro - Análise Completa</h4>
+                    <span>PDF • 4.5 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🔬</div>
+                  <div class="material-text">
+                    <h4>Experimento: O sistema solar - Roteiro Prático</h4>
+                    <span>DOCX • 2.3 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🗺️</div>
+                  <div class="material-text">
+                    <h4>Mapa: Geografia do Brasil - Estados e Capitais</h4>
+                    <span>PNG • 3.8 MB • Atualizado em 15/08/2026</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="em1" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📐</div>
+                  <div class="material-text">
+                    <h4>Funções Quadráticas - Lista de Exercícios Resolvidos</h4>
+                    <span>PDF • 5.2 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🧪</div>
+                  <div class="material-text">
+                    <h4>Química Orgânica - Introdução aos Compostos</h4>
+                    <span>PDF • 8.1 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="em2" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">⚛️</div>
+                  <div class="material-text">
+                    <h4>Física - Eletromagnetismo: Exercícios Avançados</h4>
+                    <span>PDF • 7.8 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-tab-content="em3" class="hidden">
+            <div class="material-list">
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">🎯</div>
+                  <div class="material-text">
+                    <h4>ENEM 2026 - Apostila Completa de Redação</h4>
+                    <span>PDF • 15 MB</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+              <div class="material-item">
+                <div class="material-info">
+                  <div class="material-icon">📊</div>
+                  <div class="material-text">
+                    <h4>Simulado ENEM - Comentado (Provas Anteriores)</h4>
+                    <span>PDF • 22 MB • Atualizado em 25/08/2026</span>
+                  </div>
+                </div>
+                <div class="material-actions">
+                  <button class="btn btn-outline btn-sm">👁️ Visualizar</button>
+                  <button class="btn btn-accent btn-sm">⬇️ Baixar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="avaliacoes" aria-labelledby="avaliacao-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="avaliacao-titulo"><span class="icon">📝</span> Cronograma de Avaliações</h2>
+          <span class="badge badge-warning">3º Bimestre - 2026</span>
+        </div>
+        <div class="schedule-table">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th>Disciplina</th>
+                  <th>Conteúdo</th>
+                  <th>Série</th>
+                  <th>Professores</th>
+                  <th>Situação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>05/09</strong> (seg)</td>
+                  <td>Matemática</td>
+                  <td>Funções e Geometria Analítica</td>
+                  <td>Todas</td>
+                  <td>James e Fernando</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>06/09</strong> (ter)</td>
+                  <td>Língua Portuguesa</td>
+                  <td>Redação e Interpretação</td>
+                  <td>Todas</td>
+                  <td>Altierres e Janaílson Ferreira</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>07/09</strong> (qua)</td>
+                  <td>Ciências (Bio/Quím)</td>
+                  <td>Celula e Compostos Orgânicos</td>
+                  <td>Todas</td>
+                  <td>Tenan</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>08/09</strong> (qui)</td>
+                  <td>História</td>
+                  <td>República e Era Vargas</td>
+                  <td>EF II / EM</td>
+                  <td>Adriane e Suenele</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>09/09</strong> (sex)</td>
+                  <td>Geografia</td>
+                  <td>Globalização e Economia</td>
+                  <td>Todas</td>
+                  <td>Jucicléia</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>12/09</strong> (seg)</td>
+                  <td>Inglês + Física</td>
+                  <td>Reading Comprehension / Cinemática</td>
+                  <td>Todas</td>
+                  <td>Vandreia</td>
+                  <td><span class="badge badge-warning">Agendada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>15/09</strong> (qui)</td>
+                  <td>Recuperação</td>
+                  <td>Conteúdos acumulados 1º bim</td>
+                  <td>Todas</td>
+                  <td>Todos</td>
+                  <td><span class="badge badge-danger">Obrigatória</span></td>
+                </tr>
+                <tr>
+                  <td><strong>18/09</strong> (seg)</td>
+                  <td>Trabalhos / Seminários</td>
+                  <td>Entrega de projetos</td>
+                  <td>Todas</td>
+                  <td>Todos</td>
+                  <td><span class="badge badge-info">Entrega</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="section" id="projetos" aria-labelledby="projetos-titulo">
+        <div class="section-header"><h2 class="section-title" id="projetos-titulo"><span class="icon" aria-hidden="true">🚀</span> Projetos e Eventos</h2><a href="comunicacao.html#noticias" class="btn btn-outline btn-sm">Conhecer os eventos →</a></div>
+        <div class="news-grid school-events-grid"><article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/jogos-escolares.png" alt="Ilustração dos Jogos Escolares" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Esportes</span>
+              <h3>Jogos Escolares</h3>
+              <p>Esporte, respeito e trabalho em equipe. Os jogos escolares incentivam a convivência e a participação dos estudantes.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-jogos">Conhecer o evento →</a>
+            </div>
+          </article>
+<article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/feira.jpg" alt="Ilustração da Feira de Ciências" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Ciência e tecnologia</span>
+              <h3>Feira de Ciências</h3>
+              <p>Um espaço para os estudantes apresentarem projetos científicos e tecnológicos, compartilhando descobertas e aprendizados.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-feira">Conhecer o evento →</a>
+            </div>
+          </article>
+<article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/sao-joao.png" alt="Decoração da festa de São João" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Cultura</span>
+              <h3>São João</h3>
+              <p>Uma celebração da cultura nordestina que reúne a comunidade escolar e valoriza nossas tradições.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-sao-joao">Conhecer o evento →</a>
+            </div>
+          </article></div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img class="footer-crest" src="assets/escudo-querubina.jpg" alt="" width="38" height="44" loading="lazy"> Querubina Conecta</h3>
+          <p>Portal da Escola Estadual Querubina Silveira, em Cerro Corá - RN. Educação, inclusão e informação para a comunidade escolar.</p>
+          <p style="font-style:italic;">“Informação ao alcance de todos.”</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">🏠 Início</a></li>
+            <li><a href="academico.html">📚 Área Acadêmica</a></li>
+            <li><a href="servicos.html">📝 Serviços</a></li>
+            <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="biblioteca.html">📖 Biblioteca</a></li>
+            <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+            <li><a href="contato.html">📞 Contato</a></li>
+            <li><a href="#">❓ FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="comunidade.html#transparencia">🔍 Transparência</a></li>
+            <li><a href="#">📄 Política de Privacidade</a></li>
+            <li><a href="#">⚖️ Termos de Uso</a></li>
+            <li><a href="#">🔐 Acesso Gov.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© 2026 Escola Estadual Querubina Silveira • Todos os direitos reservados</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

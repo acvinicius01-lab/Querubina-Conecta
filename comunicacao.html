@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunicação | Querubina Conecta</title>
+  <meta name="description" content="Mural de avisos, notícias e canal para dúvidas e sugestões.">
+  <link rel="icon" type="image/jpeg" href="assets/escudo-querubina.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <span>🏫 Escola Estadual Querubina Silveira • Ano Letivo 2026</span>
+        <div class="top-bar-links">
+          <div class="a11y-controls">
+            <span style="font-size:0.75rem;opacity:0.9;">Acessibilidade:</span>
+            <button class="a11y-btn" id="highContrastBtn">◐ Alto Contraste</button>
+            <button class="a11y-btn" id="largeFontBtn">A+ Fonte Ampliada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="assets/escudo-querubina.jpg" alt="Escudo da Escola Estadual Querubina Silveira" width="62" height="72"></div>
+          <div class="logo-text">
+            <h1>Querubina Conecta</h1>
+            <p>“Informação ao alcance de todos.”</p>
+          </div>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchBox" class="search-box" placeholder="Buscar notícias ou avisos...">
+          <div class="search-suggestions" id="searchSuggestions"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="index.html">🏠 Início</a></li>
+          <li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços ao Estudante</a></li>
+          <li><a href="comunicacao.html" class="active" aria-current="page">📣 Comunicação</a></li>
+          <li><a href="biblioteca.html">📖 Biblioteca Digital</a></li>
+          <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2>📣 Comunicação</h2>
+      <p>Mural de avisos, notícias e canal direto com a direção da escola.</p>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <div class="container">
+
+      <section class="section" aria-labelledby="mural-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="mural-titulo"><span class="icon">📌</span> Mural de Avisos</h2>
+          <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+            <span class="badge badge-danger">Urgente</span>
+            <span class="badge badge-warning">Eventos</span>
+            <span class="badge badge-success">Informações</span>
+          </div>
+        </div>
+        <div class="notice-board">
+
+          <div class="notice-item urgent">
+            <div class="notice-icon">⚠️</div>
+            <div class="notice-content">
+              <h3>ATENÇÃO: Revisão do Recesso de Setembro</h3>
+              <p>Devido ao feriado de 7 de setembro, o recesso escolar será de 05 a 15 de setembro. Retorno às aulas: 16 de setembro (terça-feira). Fiquem atentos às datas das avaliações que foram ajustadas.</p>
+              <div class="notice-meta">
+                <span>📅 Publicado: 28/08/2026</span>
+                <span>👤 Direção Geral</span>
+                <span>🔖 <span class="badge badge-danger">Urgente</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item urgent">
+            <div class="notice-icon">📝</div>
+            <div class="notice-content">
+              <h3>Matrículas 2027 — A partir de 1º de janeiro</h3>
+              <p>As matrículas e rematrículas para o ano letivo de 2027 terão início em 1º de janeiro de 2027. Entre em contato com a secretaria para consultar a documentação necessária e receber orientações sobre o processo.</p>
+              <div class="notice-meta">
+                <span>📅 Início das matrículas: 01/01/2027</span>
+                <span>👤 Secretaria Acadêmica</span>
+                <span>🔖 <span class="badge badge-danger">Urgente</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item event">
+            <div class="notice-icon">🔬</div>
+            <div class="notice-content">
+              <h3>Feira de Ciências 2026 - Inscrições até 31/08</h3>
+              <p>Alunos de todas as séries já podem inscrever seus projetos na VIII Feira de Ciências! Premiações para os três melhores trabalhos de cada categoria. Confira o regulamento no mural da sala de informática.</p>
+              <div class="notice-meta">
+                <span>📅 Evento: 20/09/2026</span>
+                <span>⏰ 8h às 17h</span>
+                <span>📍 Pátio Principal</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item event">
+            <div class="notice-icon">👨‍👩‍👧</div>
+            <div class="notice-content">
+              <h3>Reunião de Pais - 27/09 (sábado)</h3>
+              <p>Convidamos todos os pais e responsáveis para reunião bimestral. Pauta: desempenho do 3º bimestre, projetos do ano letivo, preparação para o ENEM e nova campanha de arrecadação de alimentos.</p>
+              <div class="notice-meta">
+                <span>📅 27/09/2026</span>
+                <span>⏰ 9h às 12h</span>
+                <span>📍 Auditório da escola</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item info">
+            <div class="notice-icon">📚</div>
+            <div class="notice-content">
+              <h3>Novo horário da Biblioteca</h3>
+              <p>Com as novas monitorias, a biblioteca passa a funcionar de segunda a sexta, das 7h às 18h, e aos sábados das 8h às 12h. Empréstimo de livros: até 7 dias corridos.</p>
+              <div class="notice-meta">
+                <span>📅 Publicado: 20/08/2026</span>
+                <span>👤 Equipe da Biblioteca</span>
+                <span>🔖 <span class="badge badge-info">Info</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item info">
+            <div class="notice-icon">🍎</div>
+            <div class="notice-content">
+              <h3>Campanha de arrecadação de alimentos</h3>
+              <p>A escola está arrecadando alimentos não-perecíveis para o "Projeto Alimenta Querubina". Cada aluno que levar 1kg de alimento ganhará um ponto extra em atividades! Recebemos até 15/09.</p>
+              <div class="notice-meta">
+                <span>📅 Até: 15/09/2026</span>
+                <span>👤 Projeto Social</span>
+                <span>🔖 <span class="badge badge-success">Doação</span></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section" id="noticias" aria-labelledby="noticias-titulo">
+        <div class="section-header"><h2 class="section-title" id="noticias-titulo"><span class="icon" aria-hidden="true">📷</span> Eventos e Vida Escolar</h2></div>
+        <p class="school-section-intro">Esporte, ciência e cultura aproximam nossos estudantes e a comunidade. Conheça os eventos da Querubina Silveira.</p>
+        <div class="news-grid school-events-grid"><article class="news-card school-event" id="evento-jogos">
+            <div class="news-image school-event-image"><img src="assets/escola/jogos-escolares.png" alt="Ilustração dos Jogos Escolares" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Esportes</span>
+              <h3>Jogos Escolares</h3>
+              <p>Esporte, respeito e trabalho em equipe. Os jogos escolares incentivam a convivência e a participação dos estudantes.</p>
+              
+            </div>
+          </article>
+<article class="news-card school-event" id="evento-feira">
+            <div class="news-image school-event-image"><img src="assets/escola/feira.jpg" alt="Ilustração da Feira de Ciências" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Ciência e tecnologia</span>
+              <h3>Feira de Ciências</h3>
+              <p>Um espaço para os estudantes apresentarem projetos científicos e tecnológicos, compartilhando descobertas e aprendizados.</p>
+              
+            </div>
+          </article>
+<article class="news-card school-event" id="evento-sao-joao">
+            <div class="news-image school-event-image"><img src="assets/escola/sao-joao.png" alt="Decoração da festa de São João" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Cultura</span>
+              <h3>São João</h3>
+              <p>Uma celebração da cultura nordestina que reúne a comunidade escolar e valoriza nossas tradições.</p>
+              
+            </div>
+          </article></div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="faq-titulo"><span class="icon">❓</span> Perguntas Frequentes</h2>
+        </div>
+        <div class="notice-board">
+          <div class="notice-item info">
+            <div class="notice-icon">❓</div>
+            <div class="notice-content">
+              <h3>Como recuperar a senha do portal do aluno?</h3>
+              <p>Clique em "Esqueci minha senha" na tela de login e digite seu RA. Você receberá um link de redefinição no e-mail cadastrado. Se o problema persistir, procure a secretaria com RG.</p>
+            </div>
+          </div>
+          <div class="notice-item info">
+            <div class="notice-icon">❓</div>
+            <div class="notice-content">
+              <h3>Qual o prazo para entrega de documentos solicitados?</h3>
+              <p>Declarações simples: 24 a 48h úteis. Históricos e transferências: até 5 dias úteis. Você receberá um e-mail quando o documento estiver pronto para retirada.</p>
+            </div>
+          </div>
+          <div class="notice-item info">
+            <div class="notice-icon">❓</div>
+            <div class="notice-content">
+              <h3>Posso assistir às aulas online se estiver doente?</h3>
+              <p>Sim! Aulas estão gravadas e disponíveis na plataforma Google Classroom. Solicite o código de acesso com seus professores ou coordenação para acompanhar o conteúdo.</p>
+            </div>
+          </div>
+          <div class="notice-item info">
+            <div class="notice-icon">❓</div>
+            <div class="notice-content">
+              <h3>Como participar das monitorias?</h3>
+              <p>As inscrições estão abertas na <a href="servicos.html#monitorias">página de Serviços ao Estudante</a>. As monitorias ocorrem de segunda a sexta, nos períodos matutino e vespertino, mediante inscrição prévia.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="duvidas-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="duvidas-titulo"><span class="icon">💬</span> Dúvidas & Sugestões</h2>
+        </div>
+        <div class="form-container">
+          <form data-simulate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fNome">Nome *</label>
+                <input type="text" id="fNome" required placeholder="Seu nome completo">
+              </div>
+              <div class="form-group">
+                <label for="fPerfil">Perfil *</label>
+                <select id="fPerfil" required>
+                  <option value="">Selecione...</option>
+                  <option>Aluno(a)</option>
+                  <option>Pai / Mãe / Responsável</option>
+                  <option>Professor(a)</option>
+                  <option>Funcionário(a)</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fEmail">E-mail *</label>
+                <input type="email" id="fEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="fTel">Telefone</label>
+                <input type="tel" id="fTel">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fTipo">Assunto *</label>
+                <select id="fTipo" required>
+                  <option value="">Selecione o tipo...</option>
+                  <option>📝 Dúvida</option>
+                  <option>💡 Sugestão</option>
+                  <option>👍 Elogio</option>
+                  <option>⚠️ Reclamação</option>
+                  <option>🔧 Problema técnico no portal</option>
+                  <option>🤝 Proposta de parceria</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fSetor">Destinatário *</label>
+                <select id="fSetor" required>
+                  <option value="">Encaminhar para...</option>
+                  <option>👤 Direção Geral</option>
+                  <option>🎓 Coordenação Pedagógica</option>
+                  <option>📋 Secretaria Acadêmica</option>
+                  <option>👨‍🏫 Equipe de Professores</option>
+                  <option>👩‍⚕️ Psicologia / Orientação</option>
+                  <option>💻 Suporte Técnico / TI</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fTitulo">Título da mensagem *</label>
+              <input type="text" id="fTitulo" required placeholder="Resuma o assunto em poucas palavras">
+            </div>
+            <div class="form-group">
+              <label for="fMsg">Mensagem *</label>
+              <textarea id="fMsg" rows="5" required placeholder="Descreva sua dúvida, sugestão ou comentário com detalhes..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style="background:var(--primary);color:white;">📤 Enviar Mensagem</button>
+            <p style="margin-top:1rem;font-size:0.85rem;color:var(--text-muted);text-align:center;">
+              💡 Resposta média: 1 a 3 dias úteis via e-mail. Para assuntos urgentes, ligue: <a href="tel:+558497096466">(84) 9709-6466</a>
+            </p>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img class="footer-crest" src="assets/escudo-querubina.jpg" alt="" width="38" height="44" loading="lazy"> Querubina Conecta</h3>
+          <p>Portal da Escola Estadual Querubina Silveira, em Cerro Corá - RN. Educação, inclusão e informação para a comunidade escolar.</p>
+          <p style="font-style:italic;">“Informação ao alcance de todos.”</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><ul>
+          <li><a href="index.html">🏠 Início</a></li><li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços</a></li><li><a href="comunicacao.html">📣 Comunicação</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Recursos</h4><ul>
+          <li><a href="biblioteca.html">📖 Biblioteca</a></li><li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li><li><a href="#faq">❓ FAQ</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Legal</h4><ul>
+          <li><a href="comunidade.html#transparencia">🔍 Transparência</a></li>
+          <li><a href="#">📄 Política de Privacidade</a></li><li><a href="#">⚖️ Termos de Uso</a></li>
+          <li><a href="#">🔐 Acesso Gov.br</a></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 Escola Estadual Querubina Silveira • Todos os direitos reservados</div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

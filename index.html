@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Querubina Conecta - Portal do Estudante | Escola Estadual Querubina Silveira</title>
+  <meta name="description" content="Portal do Estudante da Escola Estadual Querubina Silveira - Informação ao alcance de todos.">
+  <link rel="icon" type="image/jpeg" href="assets/escudo-querubina.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <span>🏫 Escola Estadual Querubina Silveira • Ano Letivo 2026</span>
+        <div class="top-bar-links">
+          <div class="a11y-controls">
+            <span style="font-size:0.75rem;opacity:0.9;">Acessibilidade:</span>
+            <button class="a11y-btn" id="highContrastBtn" aria-label="Ativar alto contraste">◐ Alto Contraste</button>
+            <button class="a11y-btn" id="largeFontBtn" aria-label="Aumentar fonte">A+ Fonte Ampliada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo" aria-label="Página Inicial - Querubina Conecta">
+          <div class="logo-icon"><img src="assets/escudo-querubina.jpg" alt="Escudo da Escola Estadual Querubina Silveira" width="62" height="72"></div>
+          <div class="logo-text">
+            <h1>Querubina Conecta</h1>
+            <p>“Informação ao alcance de todos.”</p>
+          </div>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu">☰</button>
+
+        <div class="search-container" role="search">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input type="search" id="searchBox" class="search-box" placeholder="O que você procura? (ex: horários, notas, livros...)" aria-label="Campo de busca">
+          <div class="search-suggestions" id="searchSuggestions" role="listbox"></div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active" aria-current="page">🏠 Início</a></li>
+          <li><a href="academico.html">📚 Área Acadêmica</a></li>
+          <li><a href="servicos.html">📝 Serviços ao Estudante</a></li>
+          <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          <li><a href="biblioteca.html">📖 Biblioteca Digital</a></li>
+          <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+          <li><a href="contato.html">📞 Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <section class="school-hero" aria-labelledby="escola-inicio-titulo">
+        <img class="school-hero-photo" src="assets/escola/fachada.jpg" alt="Fachada da Escola Estadual Querubina Silveira em Cerro Corá" width="1280" height="720" fetchpriority="high">
+        <div class="school-hero-content">
+          <span class="school-eyebrow">Cerro Corá · Rio Grande do Norte</span>
+          <h2 id="escola-inicio-titulo">Escola Estadual<br>Querubina Silveira</h2>
+          <p>Educação que transforma vidas. Conhecimento, inclusão e oportunidades para nossa comunidade.</p>
+          <div class="banner-actions">
+            <a href="comunidade.html#nossa-escola" class="btn school-btn-highlight">Conheça nossa escola →</a>
+            <a href="academico.html#modalidades" class="btn btn-secondary">Cursos e modalidades</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="acesso-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="acesso-titulo"><span class="icon" aria-hidden="true">⚡</span> Acesso Rápido</h2>
+          <a href="academico.html" class="btn btn-outline btn-sm">Ver todos →</a>
+        </div>
+        <div class="quick-access">
+          <a href="academico.html#horarios" class="quick-card">
+            <div class="icon" aria-hidden="true">⏰</div>
+            <h3>Horários das Aulas</h3>
+            <p>Consulte seu horário semanal</p>
+          </a>
+          <a href="academico.html#calendario" class="quick-card">
+            <div class="icon" aria-hidden="true">📅</div>
+            <h3>Calendário Escolar</h3>
+            <p>Datas importantes do ano letivo</p>
+          </a>
+          <a href="comunicacao.html" class="quick-card">
+            <div class="icon" aria-hidden="true">📢</div>
+            <h3>Comunicados</h3>
+            <p>Avisos e comunicados oficiais</p>
+          </a>
+          <a href="servicos.html#login" class="quick-card">
+            <div class="icon" aria-hidden="true">👤</div>
+            <h3>Área do Aluno</h3>
+            <p>Acesse sua conta pessoal</p>
+          </a>
+          <a href="servicos.html#notas" class="quick-card">
+            <div class="icon" aria-hidden="true">📊</div>
+            <h3>Notas & Frequência</h3>
+            <p>Consulte seu desempenho</p>
+          </a>
+          <a href="biblioteca.html" class="quick-card">
+            <div class="icon" aria-hidden="true">📚</div>
+            <h3>Biblioteca Digital</h3>
+            <p>Livros e materiais online</p>
+          </a>
+          <a href="servicos.html#documentos" class="quick-card">
+            <div class="icon" aria-hidden="true">📋</div>
+            <h3>Documentos</h3>
+            <p>Solicite declarações</p>
+          </a>
+          <a href="servicos.html#agendamento" class="quick-card">
+            <div class="icon" aria-hidden="true">📆</div>
+            <h3>Agendamento</h3>
+            <p>Atendimento pedagógico</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="banner enrollment-banner" aria-labelledby="banner-titulo">
+        <div class="banner-content">
+          <span class="banner-tag">⚠️ AVISO IMPORTANTE</span>
+          <h2 id="banner-titulo">Matrículas 2027 — A partir de 1º de janeiro</h2>
+          <p>O período de matrículas para o ano letivo de 2027 terá início em 1º de janeiro de 2027. Procure a secretaria da escola para orientações sobre matrícula, rematrícula e documentação necessária.</p>
+          <div class="banner-actions">
+            <a href="contato.html" class="btn btn-primary">📄 Informações sobre Matrículas</a>
+            <a href="comunicacao.html" class="btn btn-secondary">📢 Ver todos os avisos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="alert-box alert-info">
+        <span class="alert-icon" aria-hidden="true">📅</span>
+        <div class="alert-content">
+          <p><strong>Vida escolar:</strong> Consulte os <a href="academico.html#horarios">horários das aulas</a>, acompanhe os <a href="comunicacao.html">comunicados</a> e conheça os <a href="comunicacao.html#noticias">eventos da escola</a>.</p>
+        </div>
+      </section>
+
+
+
+      <section class="section" aria-labelledby="noticias-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="noticias-titulo"><span class="icon" aria-hidden="true">📷</span> Eventos da Escola</h2>
+          <a href="comunicacao.html#noticias" class="btn btn-outline btn-sm">Conhecer os eventos →</a>
+        </div>
+        <div class="news-grid school-events-grid"><article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/jogos-escolares.png" alt="Ilustração dos Jogos Escolares" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Esportes</span>
+              <h3>Jogos Escolares</h3>
+              <p>Esporte, respeito e trabalho em equipe. Os jogos escolares incentivam a convivência e a participação dos estudantes.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-jogos">Conhecer o evento →</a>
+            </div>
+          </article>
+<article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/feira.jpg" alt="Ilustração da Feira de Ciências" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Ciência e tecnologia</span>
+              <h3>Feira de Ciências</h3>
+              <p>Um espaço para os estudantes apresentarem projetos científicos e tecnológicos, compartilhando descobertas e aprendizados.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-feira">Conhecer o evento →</a>
+            </div>
+          </article>
+<article class="news-card school-event">
+            <div class="news-image school-event-image"><img src="assets/escola/sao-joao.png" alt="Decoração da festa de São João" loading="lazy" decoding="async"></div>
+            <div class="news-content">
+              <span class="news-category">Cultura</span>
+              <h3>São João</h3>
+              <p>Uma celebração da cultura nordestina que reúne a comunidade escolar e valoriza nossas tradições.</p>
+              <a class="school-text-link" href="comunicacao.html#evento-sao-joao">Conhecer o evento →</a>
+            </div>
+          </article></div>
+      </section>
+
+      <section class="section" aria-labelledby="eventos-titulo">
+        <div class="section-header">
+          <h2 class="section-title" id="eventos-titulo"><span class="icon" aria-hidden="true">🎯</span> Próximos Eventos</h2>
+        </div>
+        <div class="notice-board">
+          <div class="notice-item urgent">
+            <div class="notice-icon" aria-hidden="true">📝</div>
+            <div class="notice-content">
+              <h3>Provas do 3º Bimestre</h3>
+              <p>Início das avaliações bimestrais para todas as séries. Confira o cronograma completo na Área Acadêmica.</p>
+              <div class="notice-meta">
+                <span>📅 05 a 12 de setembro</span>
+                <span>📍 Salas de aula</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item event">
+            <div class="notice-icon" aria-hidden="true">🔬</div>
+            <div class="notice-content">
+              <h3>VIII Feira de Ciências</h3>
+              <p>Exposição de projetos científicos dos alunos do ensino fundamental e médio. Aberta ao público e famílias!</p>
+              <div class="notice-meta">
+                <span>📅 20 de setembro (sábado)</span>
+                <span>⏰ 8h às 17h</span>
+                <span>📍 Pátio da escola</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notice-item info">
+            <div class="notice-icon" aria-hidden="true">👨‍👩‍👧</div>
+            <div class="notice-content">
+              <h3>Reunião de Pais e Responsáveis</h3>
+              <p>Pauta: desempenho do 3º bimestre, projetos do ano letivo e preparação para ENEM.</p>
+              <div class="notice-meta">
+                <span>📅 27 de setembro (sábado)</span>
+                <span>⏰ 9h</span>
+                <span>📍 Auditório</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img class="footer-crest" src="assets/escudo-querubina.jpg" alt="" width="38" height="44" loading="lazy"> Querubina Conecta</h3>
+          <p>Portal da Escola Estadual Querubina Silveira, em Cerro Corá - RN. Educação, inclusão e informação para a comunidade escolar.</p>
+          <p style="font-style:italic;">“Informação ao alcance de todos.”</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">🏠 Início</a></li>
+            <li><a href="academico.html">📚 Área Acadêmica</a></li>
+            <li><a href="servicos.html">📝 Serviços</a></li>
+            <li><a href="comunicacao.html">📣 Comunicação</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="biblioteca.html">📖 Biblioteca</a></li>
+            <li><a href="comunidade.html">👨‍👩‍👧 Comunidade</a></li>
+            <li><a href="contato.html">📞 Contato</a></li>
+            <li><a href="comunicacao.html#faq">❓ FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="comunidade.html#transparencia">🔍 Transparência</a></li>
+            <li><a href="#">📄 Política de Privacidade</a></li>
+            <li><a href="#">⚖️ Termos de Uso</a></li>
+            <li><a href="#">🔐 Acesso Gov.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        © 2026 Escola Estadual Querubina Silveira • Todos os direitos reservados • Desenvolvido com 💙 pela comunidade escolar
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
