@@ -1919,3 +1919,17 @@ main > .container > .section { margin-bottom: 2.5rem; }
   .school-modalities { grid-template-columns: minmax(0, 1fr); }
   .school-modality:last-child { grid-column: auto; }
 }
+
+/* Shared outline icons; color follows text and accessibility themes. */
+.site-icon {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+  flex-shrink: 0;
+  overflow: visible;
+}
+.book-icon .site-icon { width: 1em; height: 1em; }
+.search-icon { display: flex; align-items: center; }
+.search-suggestion-item > span { display: flex; align-items: center; }
+.mobile-menu-btn .site-icon { vertical-align: middle; }

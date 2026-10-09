@@ -1,35 +1,35 @@
 const searchIndex = [
-  { title: 'Nossa Escola', desc: 'Estrutura, missão, visão e valores', icon: '🏫', page: 'comunidade.html#nossa-escola', keywords: 'escola querubina estrutura missão visão valores fachada' },
-  { title: 'Cursos e Modalidades', desc: 'Ensino Fundamental, Médio, Técnico em Informática, AEE e EJA', icon: '🎓', page: 'academico.html#modalidades', keywords: 'curso modalidades tecnico informática tecnologia aee eja' },
-  { title: 'Galeria da Escola', desc: 'Biblioteca, laboratório de informática e pátio', icon: '📷', page: 'comunidade.html#galeria', keywords: 'galeria fotos imagens biblioteca laboratorio pátio' },
-  { title: 'Eventos da Escola', desc: 'Jogos Escolares, Feira de Ciências e São João', icon: '🎉', page: 'comunicacao.html#noticias', keywords: 'eventos jogos feira ciências sao joao festa esporte cultura' },
-  { title: 'Horários das Aulas', desc: 'Horários matutino e vespertino de agosto a dezembro', icon: '⏰', page: 'academico.html#horarios', keywords: 'aula horário horarios semana turno manhã tarde matutino vespertino pdf' },
-  { title: 'Calendário Escolar', desc: 'Datas importantes do ano letivo', icon: '📅', page: 'index.html', keywords: 'calendário data feriado recesso' },
-  { title: 'Comunicados', desc: 'Avisos e comunicados oficiais', icon: '📢', page: 'index.html', keywords: 'aviso comunicado notícia' },
-  { title: 'Área do Aluno', desc: 'Acesse sua conta pessoal', icon: '👤', page: 'index.html', keywords: 'aluno login senha conta' },
-  { title: 'Matemática', desc: 'Materiais e atividades de matemática', icon: '🔢', page: 'academico.html', keywords: 'matemática cálculo álgebra geometria' },
-  { title: 'Língua Portuguesa', desc: 'Literatura e gramática', icon: '📖', page: 'academico.html', keywords: 'português literatura gramática redação' },
-  { title: 'Ciências', desc: 'Biologia, química e física', icon: '🔬', page: 'academico.html', keywords: 'ciências biologia química física' },
-  { title: 'História', desc: 'História geral e do Brasil', icon: '🏛️', page: 'academico.html', keywords: 'história brasil geral' },
-  { title: 'Geografia', desc: 'Geografia política e física', icon: '🌍', page: 'academico.html', keywords: 'geografia mapa política' },
-  { title: 'Inglês', desc: 'Idioma estrangeiro moderno', icon: '🌐', page: 'academico.html', keywords: 'inglês idioma língua estrangeira' },
-  { title: 'Educação Física', desc: 'Atividades esportivas', icon: '⚽', page: 'academico.html', keywords: 'educação física esporte' },
-  { title: 'Artes', desc: 'Cultura e expressão artística', icon: '🎨', page: 'academico.html', keywords: 'artes cultura desenho' },
-  { title: 'Cronograma de Avaliações', desc: 'Datas das provas e trabalhos', icon: '📝', page: 'academico.html', keywords: 'avaliação prova teste data' },
-  { title: 'Projetos Escolares', desc: 'Feiras de ciências e projetos', icon: '🚀', page: 'academico.html', keywords: 'projeto feira ciência' },
-  { title: 'Declaração de Matrícula', desc: 'Solicite sua declaração', icon: '📄', page: 'servicos.html', keywords: 'declaração documento matrícula' },
-  { title: 'Histórico Escolar', desc: 'Solicite seu histórico', icon: '📋', page: 'servicos.html', keywords: 'histórico boletim documento' },
-  { title: 'Consulta de Notas', desc: 'Verifique suas notas', icon: '📊', page: 'servicos.html', keywords: 'nota boletim frequência' },
-  { title: 'Monitoria', desc: 'Inscreva-se em monitorias', icon: '👨‍🏫', page: 'servicos.html', keywords: 'monitoria ajuda aula particular' },
-  { title: 'Atendimento Pedagógico', desc: 'Agende horário com pedagogo', icon: '👩‍🏫', page: 'servicos.html', keywords: 'agendamento pedagogo pedagogia' },
-  { title: 'Mural de Avisos', desc: 'Avisos importantes da escola', icon: '📌', page: 'comunicacao.html', keywords: 'aviso mural mural comunicado' },
-  { title: 'Dúvidas e Sugestões', desc: 'Envie sua mensagem para direção', icon: '💬', page: 'comunicacao.html', keywords: 'dúvida sugestão contato' },
-  { title: 'Catálogo de Livros', desc: 'Livros digitais disponíveis', icon: '📚', page: 'biblioteca.html', keywords: 'livro biblioteca catálogo digital' },
-  { title: 'Plataformas de Leitura', desc: 'Links para leitura online', icon: '📱', page: 'biblioteca.html', keywords: 'leitura plataforma livro online' },
-  { title: 'Espaço dos Pais', desc: 'Informações para responsáveis', icon: '👨‍👩‍👧', page: 'comunidade.html', keywords: 'pais responsável família' },
-  { title: 'Transparência Escolar', desc: 'Documentos e atas de reuniões', icon: '🔍', page: 'comunidade.html', keywords: 'transparência ata reunião documento' },
-  { title: 'Parcerias', desc: 'Projetos sociais e parcerias', icon: '🤝', page: 'comunidade.html', keywords: 'parceria projeto social' },
-  { title: 'Contato', desc: 'Fale com a escola', icon: '📞', page: 'contato.html', keywords: 'telefone e-mail endereço contato' }
+  { title: 'Nossa Escola', desc: 'Estrutura, missão, visão e valores', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#school"></use></svg>', page: 'comunidade.html#nossa-escola', keywords: 'escola querubina estrutura missão visão valores fachada' },
+  { title: 'Cursos e Modalidades', desc: 'Ensino Fundamental, Médio, Técnico em Informática, AEE e EJA', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#cap"></use></svg>', page: 'academico.html#modalidades', keywords: 'curso modalidades tecnico informática tecnologia aee eja' },
+  { title: 'Galeria da Escola', desc: 'Biblioteca, laboratório de informática e pátio', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#camera"></use></svg>', page: 'comunidade.html#galeria', keywords: 'galeria fotos imagens biblioteca laboratorio pátio' },
+  { title: 'Eventos da Escola', desc: 'Jogos Escolares, Feira de Ciências e São João', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#star"></use></svg>', page: 'comunicacao.html#noticias', keywords: 'eventos jogos feira ciências sao joao festa esporte cultura' },
+  { title: 'Horários das Aulas', desc: 'Horários matutino e vespertino de agosto a dezembro', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>', page: 'academico.html#horarios', keywords: 'aula horário horarios semana turno manhã tarde matutino vespertino pdf' },
+  { title: 'Calendário Escolar', desc: 'Datas importantes do ano letivo', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#calendar"></use></svg>', page: 'index.html', keywords: 'calendário data feriado recesso' },
+  { title: 'Comunicados', desc: 'Avisos e comunicados oficiais', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#megaphone"></use></svg>', page: 'index.html', keywords: 'aviso comunicado notícia' },
+  { title: 'Área do Aluno', desc: 'Acesse sua conta pessoal', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>', page: 'index.html', keywords: 'aluno login senha conta' },
+  { title: 'Matemática', desc: 'Materiais e atividades de matemática', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#calculator"></use></svg>', page: 'academico.html', keywords: 'matemática cálculo álgebra geometria' },
+  { title: 'Língua Portuguesa', desc: 'Literatura e gramática', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#book"></use></svg>', page: 'academico.html', keywords: 'português literatura gramática redação' },
+  { title: 'Ciências', desc: 'Biologia, química e física', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#flask"></use></svg>', page: 'academico.html', keywords: 'ciências biologia química física' },
+  { title: 'História', desc: 'História geral e do Brasil', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#landmark"></use></svg>', page: 'academico.html', keywords: 'história brasil geral' },
+  { title: 'Geografia', desc: 'Geografia política e física', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#globe"></use></svg>', page: 'academico.html', keywords: 'geografia mapa política' },
+  { title: 'Inglês', desc: 'Idioma estrangeiro moderno', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#globe"></use></svg>', page: 'academico.html', keywords: 'inglês idioma língua estrangeira' },
+  { title: 'Educação Física', desc: 'Atividades esportivas', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ball"></use></svg>', page: 'academico.html', keywords: 'educação física esporte' },
+  { title: 'Artes', desc: 'Cultura e expressão artística', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#palette"></use></svg>', page: 'academico.html', keywords: 'artes cultura desenho' },
+  { title: 'Cronograma de Avaliações', desc: 'Datas das provas e trabalhos', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#edit"></use></svg>', page: 'academico.html', keywords: 'avaliação prova teste data' },
+  { title: 'Projetos Escolares', desc: 'Feiras de ciências e projetos', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg>', page: 'academico.html', keywords: 'projeto feira ciência' },
+  { title: 'Declaração de Matrícula', desc: 'Solicite sua declaração', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#file"></use></svg>', page: 'servicos.html', keywords: 'declaração documento matrícula' },
+  { title: 'Histórico Escolar', desc: 'Solicite seu histórico', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#file"></use></svg>', page: 'servicos.html', keywords: 'histórico boletim documento' },
+  { title: 'Consulta de Notas', desc: 'Verifique suas notas', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#chart"></use></svg>', page: 'servicos.html', keywords: 'nota boletim frequência' },
+  { title: 'Monitoria', desc: 'Inscreva-se em monitorias', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>', page: 'servicos.html', keywords: 'monitoria ajuda aula particular' },
+  { title: 'Atendimento Pedagógico', desc: 'Agende horário com pedagogo', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg>', page: 'servicos.html', keywords: 'agendamento pedagogo pedagogia' },
+  { title: 'Mural de Avisos', desc: 'Avisos importantes da escola', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#pin"></use></svg>', page: 'comunicacao.html', keywords: 'aviso mural mural comunicado' },
+  { title: 'Dúvidas e Sugestões', desc: 'Envie sua mensagem para direção', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#message"></use></svg>', page: 'comunicacao.html', keywords: 'dúvida sugestão contato' },
+  { title: 'Catálogo de Livros', desc: 'Livros digitais disponíveis', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#books"></use></svg>', page: 'biblioteca.html', keywords: 'livro biblioteca catálogo digital' },
+  { title: 'Plataformas de Leitura', desc: 'Links para leitura online', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>', page: 'biblioteca.html', keywords: 'leitura plataforma livro online' },
+  { title: 'Espaço dos Pais', desc: 'Informações para responsáveis', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#users"></use></svg>', page: 'comunidade.html', keywords: 'pais responsável família' },
+  { title: 'Transparência Escolar', desc: 'Documentos e atas de reuniões', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#search"></use></svg>', page: 'comunidade.html', keywords: 'transparência ata reunião documento' },
+  { title: 'Parcerias', desc: 'Projetos sociais e parcerias', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#users"></use></svg>', page: 'comunidade.html', keywords: 'parceria projeto social' },
+  { title: 'Contato', desc: 'Fale com a escola', icon: '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>', page: 'contato.html', keywords: 'telefone e-mail endereço contato' }
 ];
 
 const a11y = {
@@ -102,7 +102,7 @@ const search = {
     if (!suggestions) return;
     if (results.length === 0) {
       suggestions.innerHTML = `<div class="search-suggestion-item" style="color:var(--text-muted);cursor:default;">
-        <span>🔍</span> Nenhum resultado encontrado
+        <span><svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#search"></use></svg></span> Nenhum resultado encontrado
       </div>`;
     } else {
       suggestions.innerHTML = results.map(r => `
@@ -126,7 +126,9 @@ const mobileNav = {
     if (!btn || !nav) return;
     btn.addEventListener('click', () => {
       nav.classList.toggle('open');
-      btn.innerHTML = nav.classList.contains('open') ? '✕' : '☰';
+      btn.setAttribute('aria-expanded', String(nav.classList.contains('open')));
+      btn.setAttribute('aria-label', nav.classList.contains('open') ? 'Fechar menu' : 'Abrir menu');
+      btn.innerHTML = nav.classList.contains('open') ? '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#close"></use></svg>' : '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg>';
     });
   }
 };
@@ -167,7 +169,7 @@ const forms = {
     msgDiv.className = 'alert-box alert-success fade-in';
     msgDiv.style.cssText = 'margin-top:1rem;';
     msgDiv.innerHTML = `
-      <span class="alert-icon">✅</span>
+      <span class="alert-icon"><svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg></span>
       <div class="alert-content">
         <p><strong>Solicitação enviada com sucesso!</strong></p>
         <p>Recebemos sua solicitação. Entraremos em contato em breve através do e-mail ou telefone informados.</p>
@@ -175,7 +177,7 @@ const forms = {
     `;
     form.appendChild(msgDiv);
     if (btn) {
-      btn.innerHTML = '✓ Enviado';
+      btn.innerHTML = '<svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg> Enviado';
       btn.disabled = true;
       btn.style.opacity = '0.7';
       setTimeout(() => {
@@ -200,7 +202,7 @@ const gradeSimulator = {
       if (!ra) {
         container.innerHTML = `
           <div class="alert-box alert-warning fade-in">
-            <span class="alert-icon">⚠️</span>
+            <span class="alert-icon"><svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#warning"></use></svg></span>
             <div class="alert-content">
               <p>Por favor, digite seu RA (Registro de Aluno) para consultar as notas.</p>
             </div>
@@ -227,7 +229,7 @@ const gradeSimulator = {
           </div>
         </div>
         <div class="alert-box alert-info fade-in" style="margin-top:1rem;">
-          <span class="alert-icon">ℹ️</span>
+          <span class="alert-icon"><svg class="site-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#info"></use></svg></span>
           <div class="alert-content">
             <p><strong>RA consultado:</strong> ${ra} | <strong>Situação Geral:</strong> <span class="badge badge-warning">Recuperação em História</span></p>
             <p style="margin-top:0.3rem;">Avaliação de recuperação: 15/09/2026 às 14h. Procure a coordenação para mais informações.</p>

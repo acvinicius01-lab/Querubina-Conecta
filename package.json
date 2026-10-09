@@ -1,0 +1,9 @@
+{
+  "name": "querubina-conecta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal da Escola Estadual Querubina Silveira",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
